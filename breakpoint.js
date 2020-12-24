@@ -1,5 +1,14 @@
-/* eslint-disable no-unused-expressions */
-/* eslint-disable prefer-const */
+/* eslint-disable */
+
+/**
+ * Module adding event when viewport width pass through breakpoint
+ * 
+ * @module Breakpoint
+ * @param {number} value breakpoint in pixel
+ * @method Breakpoint.under trig if under the breakoint
+ * @method Breakpoint.above trig if above the breakoint
+ * 
+ */
 
 function Breakpoint(value){
 	this.above = () => {};
